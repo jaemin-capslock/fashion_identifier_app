@@ -2,6 +2,8 @@
 
 This project is my webapp implementation of fashion image classification. Users can submit fashion images, which are then stored in an S3 bucket. This action triggers an AWS Lambda function that utilizes a PyTorch image classification model to classify the image based on gender, color, and type of clothing. The inference results are subsequently displayed on the website.
 
+Check this [repo](https://github.com/jaemin-capslock/fashion-project) to see how the PyTorch model was trained.
+
 ![example](assets/app-example-2.png)
 
 # How to build
